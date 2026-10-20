@@ -1,3 +1,5 @@
+
+
 {
   "id": "trials-of-corellon",
   "title": "Trials of Corellon",
@@ -23,20 +25,15 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "requires": [
-      {
-       
-      }
-    ],
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
+"relationships": {
+  "systems": [
+    {
+      "id": "dnd5e",
+      "type": "system",
+      "compatibility": {}
+    }
+  ]
+},
   "action": "manageModule",
   "description": ""
 }
