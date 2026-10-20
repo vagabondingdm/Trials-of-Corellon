@@ -1,0 +1,42 @@
+{
+  "id": "trials-of-corellon",
+  "title": "Trials of Corellon",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "trialsofcorellon",
+      "label": "trialsofcorellon",
+      "path": "packs/trialsofcorellon",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+       
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "action": "manageModule",
+  "description": ""
+}
