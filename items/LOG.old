@@ -1,0 +1,12 @@
+2026/10/10-04:21:27.272 49c8 Recovering log #740
+2026/10/10-04:21:27.273 49c8 Level-0 table #742: started
+2026/10/10-04:21:27.275 49c8 Level-0 table #742: 9488 bytes OK
+2026/10/10-04:21:27.280 49c8 Delete type=0 #740
+2026/10/10-04:21:27.280 49c8 Delete type=3 #739
+2026/10/10-04:21:27.656 cbc Moved #742 to level-1 9488 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2026/10/10-04:21:27.657 cbc Compacting 1@1 + 1@2 files
+2026/10/10-04:21:27.667 cbc Generated table #744@1: 475 keys, 268360 bytes
+2026/10/10-04:21:27.667 cbc Compacted 1@1 + 1@2 files => 268360 bytes
+2026/10/10-04:21:27.667 cbc compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/10-04:21:27.667 cbc Delete type=2 #722
+2026/10/10-04:21:27.667 cbc Delete type=2 #742
