@@ -1,5 +1,3 @@
-"description": "Trials of Corellon is a custom adventure for Foundry Virtual Tabletop."
-
 {
   "id": "trials-of-corellon",
   "title": "Trials of Corellon",
@@ -35,5 +33,5 @@
   ]
 },
   "action": "manageModule",
-  "description": ""
+  "description": "Trials of Corellon is a custom adventure for Foundry Virtual Tabletop."
 }
