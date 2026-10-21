@@ -1,28 +1,31 @@
 {
   "id": "trials-of-corellon",
   "title": "Trials of Corellon",
-  "url": "https://github.com/vagabondingdm/Trials-of-Corellon",
-  "manifest": "https://raw.githubusercontent.com/vagabondingdm/Trials-of-Corellon/main/module.json",
-  "download": "https://github.com/vagabondingdm/Trials-of-Corellon/releases/download/v1.0.0/trials-of-corellon-20261020T202442Z-1-001.zip",
+  "description": "Trials of Corellon is a custom adventure for Foundry Virtual Tabletop.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
-  "flags": {
-    "canUpload": true
-  },
+  "authors": [
+    {
+      "name": "vagabondingdm"
+    }
+  ],
+  "url": "https://github.com/vagabondingdm/Trials-of-Corellon",
+  "manifest": "https://raw.githubusercontent.com/vagabondingdm/Trials-of-Corellon/main/module.json",
+  "download": "https://github.com/vagabondingdm/Trials-of-Corellon/releases/download/v1.0.0/trials-of-corellon-20261020T202442Z-1-001.zip",
   "packs": [
     {
       "name": "trialsofcorellon",
-      "label": "trialsofcorellon",
+      "label": "Trials of Corellon",
       "path": "packs/trialsofcorellon",
       "type": "Adventure",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
       "flags": {}
     }
   ],
@@ -34,7 +37,5 @@
         "compatibility": {}
       }
     ]
-  },
-  "action": "manageModule",
-  "description": "Trials of Corellon is a custom adventure for Foundry Virtual Tabletop."
+  }
 }
